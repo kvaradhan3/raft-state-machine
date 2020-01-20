@@ -11,9 +11,5 @@
 | combine messages with timer       |         |
 |                                   |         |
 
-* functional section for logic
-** definitions
-The 
-
 * a checkmark symbol
 ✓
