@@ -1,0 +1,19 @@
+# -*- mode: org -*-
+#+STARTUP: indent hidestars showall
+
+* things to do
+| what                              | people  |
+|-----------------------------------+---------|
+| write test code for state-machine | Frankie |
+| logic for follower                |         |
+| logic for leader                  |         |
+| logic for candidate               |         |
+| combine messages with timer       |         |
+|                                   |         |
+
+* functional section for logic
+** definitions
+The 
+
+* a checkmark symbol
+✓
