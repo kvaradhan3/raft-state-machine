@@ -1,0 +1,10 @@
+# -*- mode: org -*-
+#+STARTUP: indent hidestars showall
+
+* functional spec
+Logic code should look like the following:
+
+f(state,action) -> state,[action]
+
+Basically given a particular state, and an action, one should be able to derive
+the following state and a list of action
