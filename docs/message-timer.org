@@ -1,0 +1,16 @@
+# -*- mode: org -*-
+#+STARTUP: indent hidestars showall
+
+* merging messages and timeouts
+
+1. one idea is to have a queue for both messages and timeouts
+2. a change in the queue triggers possible state change and/or potential actions
+
+* create separate handlers
+
+Instead of putting everything into a queue, create special io handlers for each
+state.
+
+In the follower state, one simple code could be to just block on an event, 
+either a message event or a timeout event, if a valid message event arrives,
+then discard the event timeout, else trigger for the next event.
